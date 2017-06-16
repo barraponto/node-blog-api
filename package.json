@@ -1,0 +1,14 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "This is the Blog API Challenge from Servier-side JavaScript fundamentals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Crews",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^3.0.1"
+  }
+}
