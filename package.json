@@ -9,6 +9,9 @@
   "author": "Brandon Crews",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
     "uuid": "^3.0.1"
   }
 }
