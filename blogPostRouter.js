@@ -31,12 +31,13 @@ router.post('/', jsonParser, (req, res) => {
 	}
 	const item = BlogPosts.create(req.body.title, req.body.content, 
 		req.body.author, req.body.publishDate);
+	res.status(201).json(item);
 });
 
 router.delete('/:id', (req, res) => {
 	BlogPosts.delete(req.params.id);
 	console.log(`Delete shopping list item \`${req.params.ID}\``);
-	req.status(204).end();
+	res.status(204).end();
 });
 
 router.put('/:id', jsonParser, (req, res) => {
